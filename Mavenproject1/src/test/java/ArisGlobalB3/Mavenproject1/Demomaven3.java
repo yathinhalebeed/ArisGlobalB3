@@ -2,6 +2,7 @@ package ArisGlobalB3.Mavenproject1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -14,10 +15,9 @@ public class Demomaven3 {
 	
 public WebDriver myd;
 	
-	@Test(groups = "R1")
 	@Parameters({"url"})
 	
-	public void linkdin(String url) {
+	public void jquery(String url) {
 	
 		myd.get("url");
 		System.out.println(myd.findElement(By.className("entry-title")).getText());
@@ -26,8 +26,8 @@ public WebDriver myd;
 	
 	@BeforeTest
 	public void browser() {
-		System.setProperty("webdriver.edge.driver", "C:\\Bin\\msedgedriver.exe");
-		myd = new EdgeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Bin\\chromedriver.exe");
+        myd =new ChromeDriver();
 		myd.manage().window().maximize();
 	}
 	

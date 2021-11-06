@@ -8,8 +8,6 @@
           <include name="linkdin"/>
           <include name="browser"/>
           <include name="close"/>
-          <include name="bstatement"/>
-          <include name="cstatement"/>
         </methods>
       </class> <!-- ArisGlobalB3.Mavenproject1.Demomaven2 -->
     </classes>

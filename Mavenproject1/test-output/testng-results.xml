@@ -1,112 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-06T08:23:10 IST" name="Suite" finished-at="2021-11-06T08:23:10 IST" duration-ms="42">
+  <suite started-at="2021-11-06T08:49:02 IST" name="Suite" finished-at="2021-11-06T08:49:05 IST" duration-ms="3302">
     <groups>
-      <group name="R1">
-        <method signature="Demomaven2.linkdin(java.lang.String)[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@7ba8c737]" name="linkdin" class="ArisGlobalB3.Mavenproject1.Demomaven2"/>
-        <method signature="Demomaven3.linkdin(java.lang.String)[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven3@51a9ad5e]" name="linkdin" class="ArisGlobalB3.Mavenproject1.Demomaven3"/>
-      </group> <!-- R1 -->
     </groups>
-    <test started-at="2021-11-06T08:23:10 IST" name="Test" finished-at="2021-11-06T08:23:10 IST" duration-ms="42">
+    <test started-at="2021-11-06T08:49:02 IST" name="Test" finished-at="2021-11-06T08:49:05 IST" duration-ms="3302">
       <class name="ArisGlobalB3.Mavenproject1.Demomaven2">
-        <test-method signature="linkdin(java.lang.String)[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@7ba8c737]" started-at="2021-11-06T08:23:10 IST" name="linkdin" finished-at="2021-11-06T08:23:10 IST" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'url1' is required by @Test on method linkdin but has not been marked @Optional or defined
-in C:\Users\00004945\git\ArisGlobalB3\Mavenproject1\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'url1' is required by @Test on method linkdin but has not been marked @Optional or defined
-in C:\Users\00004945\git\ArisGlobalB3\Mavenproject1\testng2.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@27912e3]" started-at="2021-11-06T08:49:02 IST" name="browser" finished-at="2021-11-06T08:49:04 IST" duration-ms="1625" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- linkdin -->
+        </test-method> <!-- browser -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@27912e3]" started-at="2021-11-06T08:49:05 IST" name="close" finished-at="2021-11-06T08:49:05 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- ArisGlobalB3.Mavenproject1.Demomaven2 -->
       <class name="ArisGlobalB3.Mavenproject1.Demomaven3">
-        <test-method signature="linkdin(java.lang.String)[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven3@51a9ad5e]" started-at="2021-11-06T08:23:10 IST" name="linkdin" finished-at="2021-11-06T08:23:10 IST" duration-ms="3" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://jqueryui.com/droppable/]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.myd" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.myd" is null
-at ArisGlobalB3.Mavenproject1.Demomaven3.linkdin(Demomaven3.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven3@13bc8645]" started-at="2021-11-06T08:49:04 IST" name="browser" finished-at="2021-11-06T08:49:05 IST" duration-ms="1171" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- linkdin -->
+        </test-method> <!-- browser -->
+        <test-method is-config="true" signature="close()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven3@13bc8645]" started-at="2021-11-06T08:49:05 IST" name="close" finished-at="2021-11-06T08:49:05 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- ArisGlobalB3.Mavenproject1.Demomaven3 -->
+      <class name="ArisGlobalB3.Mavenproject1.TestNgsuite">
+        <test-method is-config="true" signature="runner()[pri:0, instance:ArisGlobalB3.Mavenproject1.TestNgsuite@7c3fdb62]" started-at="2021-11-06T08:49:02 IST" name="runner" finished-at="2021-11-06T08:49:02 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runner -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:ArisGlobalB3.Mavenproject1.TestNgsuite@7c3fdb62]" started-at="2021-11-06T08:49:05 IST" name="closer" finished-at="2021-11-06T08:49:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+      </class> <!-- ArisGlobalB3.Mavenproject1.TestNgsuite -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
