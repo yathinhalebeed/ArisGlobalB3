@@ -1,33 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="2" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-04T13:06:38 IST" name="Default suite" finished-at="2021-11-04T13:06:47 IST" duration-ms="8582">
+  <suite started-at="2021-11-05T17:31:28 IST" name="Suite" finished-at="2021-11-05T17:31:28 IST" duration-ms="8">
     <groups>
     </groups>
-    <test started-at="2021-11-04T13:06:38 IST" name="Default test" finished-at="2021-11-04T13:06:47 IST" duration-ms="8582">
-      <class name="ArisGlobalB3.Mavenproject1.Demomaven2">
-        <test-method is-config="true" signature="bstatement()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@3c73951]" started-at="2021-11-04T13:06:38 IST" name="bstatement" finished-at="2021-11-04T13:06:38 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bstatement -->
-        <test-method is-config="true" signature="browser()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@3c73951]" started-at="2021-11-04T13:06:38 IST" name="browser" finished-at="2021-11-04T13:06:41 IST" duration-ms="3189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser -->
-        <test-method signature="linkdin()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@3c73951]" started-at="2021-11-04T13:06:42 IST" name="linkdin" finished-at="2021-11-04T13:06:43 IST" duration-ms="1234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linkdin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@3c73951]" started-at="2021-11-04T13:06:43 IST" name="close" finished-at="2021-11-04T13:06:47 IST" duration-ms="4127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="cstatement()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@3c73951]" started-at="2021-11-04T13:06:47 IST" name="cstatement" finished-at="2021-11-04T13:06:47 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cstatement -->
-      </class> <!-- ArisGlobalB3.Mavenproject1.Demomaven2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test started-at="2021-11-05T17:31:28 IST" name="Test" finished-at="2021-11-05T17:31:28 IST" duration-ms="8">
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

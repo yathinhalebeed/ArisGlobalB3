@@ -6,6 +6,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Demomaven2 {
@@ -13,11 +14,12 @@ public class Demomaven2 {
 	
 	public WebDriver myd;
 	
-	@Test
+	@Test(groups = "R1")
+	@Parameters({"url1"})
 	
-	public void linkdin() {
+	public void linkdin(String url1) {
 	
-		myd.get("https://www.linkedin.com/login");
+		myd.get(url1);
 		System.out.println("Page has navigated to" + myd.getTitle());
 
 	}
@@ -34,14 +36,7 @@ public class Demomaven2 {
 		myd.close();
 	}
 	
-	@BeforeSuite
-	public void bstatement() {
-		System.out.println("Opening Browser");
-	}
+
 	
-	@AfterSuite
-	public void cstatement() {
-		System.out.println("Closing Browser");
-	}
 
 }

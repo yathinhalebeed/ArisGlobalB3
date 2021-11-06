@@ -7,17 +7,19 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Demomaven3 {
 	
 public WebDriver myd;
 	
-	@Test
+	@Test(groups = "R1")
+	@Parameters({"url"})
 	
-	public void linkdin() {
+	public void linkdin(String url) {
 	
-		myd.get("https://jqueryui.com/droppable/");
+		myd.get("url");
 		System.out.println(myd.findElement(By.className("entry-title")).getText());
 
 	}
@@ -34,14 +36,5 @@ public WebDriver myd;
 		myd.close();
 	}
 	
-	@BeforeSuite
-	public void bstatement() {
-		System.out.println("Opening Browser");
-	}
-	
-	@AfterSuite
-	public void cstatement() {
-		System.out.println("Closing Browser");
-	}
 
 }
