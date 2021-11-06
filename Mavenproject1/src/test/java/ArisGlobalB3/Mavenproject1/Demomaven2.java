@@ -15,11 +15,11 @@ public class Demomaven2 {
 	public WebDriver myd;
 	
 	@Test(groups = "R1")
-	@Parameters({"url1"})
+	@Parameters({"url2"})
 	
-	public void linkdin(String url1) {
+	public void linkdin(String url2) {
 	
-		myd.get(url1);
+		myd.get(url2);
 		System.out.println("Page has navigated to" + myd.getTitle());
 
 	}
