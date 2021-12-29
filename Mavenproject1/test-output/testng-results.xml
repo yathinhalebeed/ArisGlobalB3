@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-06T08:49:02 IST" name="Suite" finished-at="2021-11-06T08:49:05 IST" duration-ms="3302">
+  <suite started-at="2021-11-07T09:04:06 IST" name="Default suite" finished-at="2021-11-07T09:04:19 IST" duration-ms="13435">
     <groups>
     </groups>
-    <test started-at="2021-11-06T08:49:02 IST" name="Test" finished-at="2021-11-06T08:49:05 IST" duration-ms="3302">
-      <class name="ArisGlobalB3.Mavenproject1.Demomaven2">
-        <test-method is-config="true" signature="browser()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@27912e3]" started-at="2021-11-06T08:49:02 IST" name="browser" finished-at="2021-11-06T08:49:04 IST" duration-ms="1625" status="PASS">
+    <test started-at="2021-11-07T09:04:06 IST" name="Default test" finished-at="2021-11-07T09:04:19 IST" duration-ms="13435">
+      <class name="Google.Googletestcase">
+        <test-method signature="TS001()[pri:0, instance:Google.Googletestcase@62230c58]" started-at="2021-11-07T09:04:06 IST" name="TS001" finished-at="2021-11-07T09:04:19 IST" duration-ms="13414" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browser -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven2@27912e3]" started-at="2021-11-06T08:49:05 IST" name="close" finished-at="2021-11-06T08:49:05 IST" duration-ms="257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- ArisGlobalB3.Mavenproject1.Demomaven2 -->
-      <class name="ArisGlobalB3.Mavenproject1.Demomaven3">
-        <test-method is-config="true" signature="browser()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven3@13bc8645]" started-at="2021-11-06T08:49:04 IST" name="browser" finished-at="2021-11-06T08:49:05 IST" duration-ms="1171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ArisGlobalB3.Mavenproject1.Demomaven3@13bc8645]" started-at="2021-11-06T08:49:05 IST" name="close" finished-at="2021-11-06T08:49:05 IST" duration-ms="239" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- ArisGlobalB3.Mavenproject1.Demomaven3 -->
-      <class name="ArisGlobalB3.Mavenproject1.TestNgsuite">
-        <test-method is-config="true" signature="runner()[pri:0, instance:ArisGlobalB3.Mavenproject1.TestNgsuite@7c3fdb62]" started-at="2021-11-06T08:49:02 IST" name="runner" finished-at="2021-11-06T08:49:02 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runner -->
-        <test-method is-config="true" signature="closer()[pri:0, instance:ArisGlobalB3.Mavenproject1.TestNgsuite@7c3fdb62]" started-at="2021-11-06T08:49:05 IST" name="closer" finished-at="2021-11-06T08:49:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closer -->
-      </class> <!-- ArisGlobalB3.Mavenproject1.TestNgsuite -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- TS001 -->
+      </class> <!-- Google.Googletestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -2,18 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <parameter name="url2" value="https://www.amazon.in/"/>
+    <parameter name="url" value="https://jqueryui.com/droppable/"/>
     <classes>
-      <class name="ArisGlobalB3.Mavenproject1.Demomaven2">
-        <methods>
-          <include name="linkdin"/>
-          <include name="browser"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- ArisGlobalB3.Mavenproject1.Demomaven2 -->
       <class name="ArisGlobalB3.Mavenproject1.Demomaven3">
         <methods>
-          <include name="linkdin"/>
           <include name="browser"/>
+          <include name="jquery" invocation-numbers="0"/>
           <include name="close"/>
         </methods>
       </class> <!-- ArisGlobalB3.Mavenproject1.Demomaven3 -->

@@ -17,18 +17,21 @@ public WebDriver myd;
 	
 	@Parameters({"url"})
 	
-	public void jquery(String url) {
+	@Test
+	public void jquery (String url) throws InterruptedException {
 	
-		myd.get("url");
+		myd.get(url);
 		System.out.println(myd.findElement(By.className("entry-title")).getText());
+		Thread.sleep(4000);
 
 	}
 	
 	@BeforeTest
-	public void browser() {
+	public void browser() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver","C:\\Bin\\chromedriver.exe");
         myd =new ChromeDriver();
 		myd.manage().window().maximize();
+		Thread.sleep(3000);
 	}
 	
 	@AfterTest

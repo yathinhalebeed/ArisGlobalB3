@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <parameter name="url" value="https://jqueryui.com/droppable/"></parameter>
-  <parameter name="url2" value="https://www.linkedin.com/login"></parameter>
+  <parameter name="url2" value="https://www.amazon.in/"></parameter>
     <packages>
       <package name="ArisGlobalB3.Mavenproject1"/>
     </packages>

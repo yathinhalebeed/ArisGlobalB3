@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ArisGlobalB3.Mavenproject1.Demomaven2">
+      <class name="Google.Googletestcase">
         <methods>
-          <include name="linkdin"/>
-          <include name="browser"/>
-          <include name="close"/>
+          <include name="TS001"/>
         </methods>
-      </class> <!-- ArisGlobalB3.Mavenproject1.Demomaven2 -->
+      </class> <!-- Google.Googletestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
